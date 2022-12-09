@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    background-color: rgb(211, 202, 202);
+    height: 100vw;
+    width:  100vw;
+    margin:0px;
+}
+
+h1{
+    font-size: 50px;
+    color:rgb(44, 96, 207);
+}
+p{
+    font-size: 30px;
+}
+#form-box{
+    background-color: white;
+    height:350px;
+    width: 400px;
+    margin:auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: radius 15px;
+    box-shadow: 2px,2px,50px rgb(96, 93, 93);
+    text-align: center;
+}
+input{
+    width: 380px;
+    height:40px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border:solid 1px rgb(181, 179, 179)
+}
+input:focus{
+    border:solid 3px rgb(4, 4, 221);
+    outline:none;
+}
+#login-button{
+    background-color: rgb(37, 37, 239);
+    width: 350px;
+    height: 40px;
+    border:none;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    color:white;
+    font: size 25px;
+    font-weight: bold;
+}
+#login-button:hover{
+    background-color: darkorchid;
+}
+a{
+   
+    color:rgb(64, 64, 216);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+#signup-btn{
+    background-color: rgb(27, 219, 85);
+    width: 350px;
+    height: 40px;
+    border:none;
+    margin:13px 0px;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#signup-btn:hover{
+    background-color: chartreuse;
+    transition: 0.3s;
+}
